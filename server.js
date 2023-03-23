@@ -44,4 +44,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen();
+app.listen(4334, () => console.log('Server is running on port http://localhost:4334'));
